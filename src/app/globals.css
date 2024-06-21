@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-tomato: #FC4100;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dark-tomato: #FC4100;
+  }
+}
+
+/* body {
+  color: var(--color);
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4f4fa3, #362d7d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}

@@ -1,0 +1,7 @@
+# Custom robots.txt
+User-agent: *
+Disallow: /api
+Disallow: /_next
+Disallow: /_app
+Disallow: /_error
+Crawl-delay: 10
